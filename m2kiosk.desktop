@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=M2paypad
-Comment=Paypad kiosk mode login 
-Exec=/usr/local/share/kiosk-session      
-#TryExec=/usr/bin/openbox-session
-Icon=openbox
-Type=Application

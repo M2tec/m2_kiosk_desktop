@@ -1,3 +1,0 @@
-/usr/bin/mutter &
-/usr/local/m2_kiosk_app/m2-kiosk-app 
-#& lxterminal
