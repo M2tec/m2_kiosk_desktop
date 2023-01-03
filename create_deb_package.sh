@@ -42,7 +42,7 @@ function create_package() {
     LATEST="${SCRIPT_DIR}/../${M2_DEBS}/latest/"
     
     cd ${LATEST}
-    rm -rf ${PACKAGE}_*-1.deb
+    rm -rf ${PACKAGE}_*.deb
     cd ${SCRIPT_DIR}
     
     cp ${DEB} ${LATEST}
