@@ -1,0 +1,10 @@
+STRING='cat /home/m2paypad/.config/dconf/dconf-onboard-settings.ini | dconf load /org/onboard/'
+FILE='/home/m2paypad/.bashrc'
+
+grep -qFx 'cat /home/m2paypad/.config/dconf/dconf-onboard-settings.ini | dconf load /org/onboard/' $FILE || echo $STRING | tee -a $FILE
+
+
+
+
+
+

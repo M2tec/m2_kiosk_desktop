@@ -1,0 +1,5 @@
+Package: m2-kiosk-desktop
+Version: 0.30
+Maintainer: M2tec
+Architecture: all
+Description: Cardano payment app kiosk mode
