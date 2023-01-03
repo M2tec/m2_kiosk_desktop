@@ -25,9 +25,8 @@ function create_package() {
     sed -i s/Version.*/"Version: ${NEW_VERSION}"/ DEBIAN/control
 
     # Set the prefix to the root filesystem for the package build
+    rm -rf ${PACKAGE_BUILDDEB}
     cd ${SCRIPT_DIR}/builddir && meson configure --prefix ${PACKAGE_BUILDDEB}
-    cd ${SCRIPT_DIR}/builddir && meson configure --datadir usr/share
-
     cd ${SCRIPT_DIR}/builddir && meson install
     
     cd ${SCRIPT_DIR}
