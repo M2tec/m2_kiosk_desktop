@@ -29,7 +29,7 @@ Plugin {
   type=smenu
   Config {
     padding=4
-    image=start-here
+    image=hamburger
     system {
     }
     separator {
@@ -56,7 +56,7 @@ Plugin {
   type=launchbar
   Config {
     Button {
-      id=lxde-x-www-browser.desktop
+      id=m2-kiosk-app.desktop
     }
     Button {
       id=pcmanfm.desktop
