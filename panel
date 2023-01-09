@@ -28,22 +28,23 @@ Global {
 Plugin {
   type=smenu
   Config {
-    padding=4
-    image=hamburger
     system {
     }
     separator {
     }
     item {
-      image=system-run
       command=run
+      image=system-run
     }
     separator {
     }
     item {
-      image=system-shutdown
       command=logout
+      image=system-shutdown
     }
+    image=hamburger
+    padding=4
+    fixed=0
   }
 }
 Plugin {
@@ -183,10 +184,5 @@ Plugin {
   type=space
   Config {
     Size=2
-  }
-}
-Plugin {
-  type=magnifier
-  Config {
   }
 }

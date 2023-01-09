@@ -3,6 +3,8 @@ FILE='/home/m2paypad/.bashrc'
 
 grep -qFx 'cat /home/m2paypad/.config/dconf/dconf-onboard-settings.ini | dconf load /org/onboard/' $FILE || echo $STRING | tee -a $FILE
 
+chown -R root:root /usr/share/plymouth/themes/pix/
+
 set -e
 
 # summary of how this script can be called:
